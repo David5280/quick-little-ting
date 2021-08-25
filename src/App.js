@@ -1,9 +1,10 @@
+// import 'normalize.css';
 import './App.css';
 import Home from './components/Home/Home.jsx'
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Home />
     </div>
   );

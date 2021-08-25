@@ -1,8 +1,7 @@
 .container {
-  background-color: grey;
-  height: 100vh;
-  width: 100%;
+  background-color: #077b8a;
   display: flex;
+  height: 100vh;
   justify-content: center;
   align-items: center;
 }

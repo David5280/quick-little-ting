@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blocksContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.block {
+  height: 150px;
+  width: 150px;
+  background: #5c3c92;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+  border-radius: 25px;
+  flex-direction: column;
+}
+
+.blockValue {
+  font-size: 40px;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.blockText {
+  font-size: 30px;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.untilText {
+  font-size: 35px;
+  color: white;
+}
